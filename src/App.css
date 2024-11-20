@@ -1,0 +1,141 @@
+/* General Reset */
+
+* {
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+/* Body styling */
+
+body {
+  font-family: "Abel", serif;
+
+  background-color: #f4f4f4;
+
+  color: #333;
+}
+
+/* Navigation styling */
+
+nav {
+  background-color: #333;
+
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+
+  display: flex;
+
+  justify-content: space-around;
+}
+
+nav ul li a {
+  color: white;
+
+  text-decoration: none;
+
+  font-family: "Abel", serif;
+
+  font-weight: bold;
+
+  padding: 8px 16px;
+
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+
+  border-radius: 5px;
+}
+
+/* Active link styling */
+
+nav ul li a.active {
+  background-color: #007bff;
+
+  color: white;
+
+  font-weight: bold;
+
+  border-radius: 5px;
+}
+
+/* Page content styling */
+
+h1 {
+  font-family: "Abel", serif;
+
+  color: #444;
+
+  text-align: center;
+
+  margin-top: 20px;
+
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Abel", serif;
+
+  text-align: center;
+
+  font-size: 18px;
+
+  margin-top: 10px;
+}
+
+/* Button styling */
+
+button {
+  display: block;
+
+  margin: 20px auto;
+
+  padding: 10px 20px;
+
+  background-color: #007bff;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 5px;
+
+  font-family: "Abel", serif;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Input field styling */
+
+input {
+  display: block;
+
+  margin: 20px auto;
+
+  padding: 10px;
+
+  width: 80%;
+
+  max-width: 400px;
+
+  border: 1px solid #ddd;
+
+  border-radius: 5px;
+
+  font-family: "Abel", serif;
+}
